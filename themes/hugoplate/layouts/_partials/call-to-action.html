@@ -1,0 +1,28 @@
+<!-- Call to actions -->
+{{ with site.GetPage "sections/call-to-action" }}
+  {{ if .Params.enable }}
+    <section class="mb-14">
+      <div class="container">
+        <div
+          class="rounded-xl px-4 py-8 xl:p-10">
+          <div class="text-center">
+            <h2 class="mb-2">
+              {{ .Title | markdownify }}
+            </h2>
+            <p class="mb-6">
+              {{ .Params.description | markdownify }}
+            </p>
+            {{ with .Params.button }}
+              {{ if .enable }}
+                <a class="btn btn-primary" href="{{ .link | absURL }}">
+                  {{ .label }}
+                </a>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}
+<!-- /Call to actions -->
