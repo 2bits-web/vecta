@@ -16,14 +16,14 @@
   --color-text-light: #717171;
 
   /* === Darkmode Colors === */
-  --color-darkmode-primary: #fff;
-  --color-darkmode-body: #1c1c1c;
-  --color-darkmode-border: #3E3E3E;
-  --color-darkmode-light: #222222;
-  --color-darkmode-dark: #fff;
-  --color-darkmode-text: #B4AFB6;
-  --color-darkmode-text-dark: #fff;
-  --color-darkmode-text-light: #B4AFB6;
+  --color-darkmode-primary: #93b4ff;
+  --color-darkmode-body: #111936;
+  --color-darkmode-border: #1f2b52;
+  --color-darkmode-light: #182247;
+  --color-darkmode-dark: #e8eeff;
+  --color-darkmode-text: #a8b8e8;
+  --color-darkmode-text-dark: #e8eeff;
+  --color-darkmode-text-light: #7b8dc0;
 
   /* === Font Families === */
   --font-primary: Heebo, sans-serif;

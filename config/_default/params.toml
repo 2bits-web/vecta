@@ -3,7 +3,7 @@
 favicon = "images/favicon.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.jpg"
-logo_darkmode = "images/logo.jpg"
+logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "160px"
@@ -16,7 +16,7 @@ logo_text = "Vecta Compute"
 navbar_fixed = false
 # theme-mode
 theme_switcher = false
-theme_default = "system" # available options [light/dark/system]
+theme_default = "dark" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
