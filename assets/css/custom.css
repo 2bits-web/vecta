@@ -1,1 +1,9 @@
 /* Add your own custom styles here */
+
+.section-sm li {
+  color: #ffffff;
+}
+
+.section-sm li i.fa-check {
+  color: #ffffff;
+}
